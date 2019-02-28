@@ -7,6 +7,8 @@ namespace HashCode19
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("test");
+            Console.WriteLine("test");
         }
     }
 }
