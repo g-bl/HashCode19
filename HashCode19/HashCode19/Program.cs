@@ -10,13 +10,14 @@ namespace HashCode19
 {
     class HashCodeMainClass
     {
-        private static string inputFileName = "a_example.in"; // a_example b_lovely_landscapes c_memorable_moments d_pet_pictures e_shiny_selfies
-        private static string outputFileName = "a_example.out";
-        private static char delimiter = ' ';
-
         static void Main(string[] args)
         {
-            GBLSolver solver = new GBLSolver(inputFileName, outputFileName, delimiter);
+            GBLSolver solverA = new GBLSolver("a_example.in", "a_example.out", ' ');
+            GBLSolver solverB = new GBLSolver("b_lovely_landscapes.in", "b_lovely_landscapes.out", ' ');
+            GBLSolver solverC = new GBLSolver("c_memorable_moments.in", "c_memorable_moments.out", ' ');
+            GBLSolver solverD = new GBLSolver("d_pet_pictures.in", "d_pet_pictures.out", ' ');
+            GBLSolver solverE = new GBLSolver("e_shiny_selfies.in", "e_shiny_selfies.out", ' ');
+            Console.ReadKey();
         }
     }
 }
