@@ -10,8 +10,8 @@ namespace HashCode19
 {
     class HashCodeMainClass
     {
-        private static string inputFileName = "e_high_bonus.in"; // a_example b_should_be_easy c_no_hurry d_metropolis e_high_bonus
-        private static string outputFileName = "e_high_bonus.out";
+        private static string inputFileName = "a_example.in"; // a_example b_lovely_landscapes c_memorable_moments d_pet_pictures e_shiny_selfies
+        private static string outputFileName = "a_example.out";
         private static char delimiter = ' ';
 
         static void Main(string[] args)
